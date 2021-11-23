@@ -31,6 +31,7 @@ public class TaskController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Task saveTask(@RequestBody Task task){
+        task.setFinalizado(false);
         return taskRepository.save(task);
     }
 

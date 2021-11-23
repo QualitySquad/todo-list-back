@@ -15,6 +15,6 @@ public class Task {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String task;
-    private Boolean favorite;
+    private Boolean finalizado;
 
 }
