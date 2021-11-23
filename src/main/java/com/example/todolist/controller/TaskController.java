@@ -3,10 +3,15 @@ package com.example.todolist.controller;
 import com.example.todolist.model.Task;
 import com.example.todolist.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.cors.CorsConfiguration;
+import org.springframework.web.cors.CorsConfigurationSource;
+import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
+import java.util.Arrays;
 import java.util.List;
 
 @RestController
@@ -37,4 +42,15 @@ public class TaskController {
     public Task updateTask(@RequestBody Task task){
         return taskRepository.save(task);
     }
+
+    @Bean
+    CorsConfigurationSource corsConfigurationSource () {
+        final CorsConfiguration config = new CorsConfiguration();
+        config.setAllowedOrigins(Arrays.asList("*"));
+        config.setAllowedMethods(Arrays.asList("*"));
+        final UrlBasedCorsConfigurationSource configSource = new UrlBasedCorsConfigurationSource();
+        configSource.registerCorsConfiguration("/**", config);
+        return configSource;
+    }
+
 }
