@@ -10,13 +10,13 @@ import java.io.Serializable;
 
 @Data
 @Entity
-public class Task implements Serializable {
+public class User implements Serializable {
     private static final long serialVersionUID = 1L;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    private String task;
-    private Boolean finalizado;
+    private String user;
+    private String senha;
 
 }
