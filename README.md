@@ -222,7 +222,7 @@ Para atender aos requisitos disponibilizados na documentação, realizamos a com
 Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Consequentemente, ele traz mais agilidade para o processo de desenvolvimento, uma vez que devs conseguem reduzir o tempo gasto com as configurações iniciais. O framework foi escolhido para o projeto pois o nivel de segurança é muito bom, além de ser um framework que tem um custo beneficio bem alto, então muitas empresas posssuem essa tecnologia em seus softwares, além de atender a proposta do trabalho de contruir uma API.
 
 ### [MySQL](https://cucumber.io/docs/gherkin/reference/): 
-MySQL é um Banco de Dados relacional (RDBMS – Relational Database Management Systems) com um modelo de cliente-servidor. RDBMS é um software de código aberto ou serviço usado na criação e gerenciamento de bancos de dados baseados no modelo relacional. [Entenda mais sobre o Gherkin aqui](https://blog.onedaytesting.com.br/bdd-introducao/). A escolha por esse banco foi feita pois o mesmo é gratuito, funciona muito bem com o Spring boot e por ser uma solução de banco relacional, que é a realidade da maioria das empresas hoje em dia. 
+MySQL é um Banco de Dados relacional (RDBMS – Relational Database Management Systems) com um modelo de cliente-servidor. RDBMS é um software de código aberto ou serviço usado na criação e gerenciamento de bancos de dados baseados no modelo relacional. A escolha por esse banco foi feita pois o mesmo é gratuito, funciona muito bem com o Spring boot e por ser uma solução de banco de dados relacional, que é a realidade da maioria das empresas hoje em dia. 
 
 
 ## Equipe: 
