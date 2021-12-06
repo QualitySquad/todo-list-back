@@ -8,7 +8,8 @@ Documentação do produto Task Remember desenvolvido para o trabalho da CI&T.
 - [Instalação e pré-requisito](#instalação-e-pré-requisitos)  
 - [Execução](#execução) 
 - [Endpoint API](#endpoint-de-tarefas)
-
+- [Tecnologias](#tecnologias-utilizadas-no-projeto)
+- [Equipe](#equipe)
 
 -----
 ## **Objetivo**
@@ -213,3 +214,23 @@ Pronto! A partir deste momento todos os arquivos estarão na pasta que você def
   | id         | inteiro        | código da tarefa      | sim         | -            | 1       |
 
 * **Retorno Status Code:** 204
+
+## Tecnologias utilizadas no projeto: 
+Para atender aos requisitos disponibilizados na documentação, realizamos a combinação de ferramentas e tecnologias que em seu resultado final concederam economia de tempo no desenvolvimento e confiabilidade na entrega final.
+
+### [Spring Boot](https://spring.io/projects/spring-boot):
+Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Consequentemente, ele traz mais agilidade para o processo de desenvolvimento, uma vez que devs conseguem reduzir o tempo gasto com as configurações iniciais. O framework foi escolhido para o projeto pois o nivel de segurança é muito bom, além de ser um framework que tem um custo beneficio bem alto, então muitas empresas posssuem essa tecnologia em seus softwares, além de atender a proposta do trabalho de contruir uma API.
+
+### [MySQL](https://cucumber.io/docs/gherkin/reference/): 
+MySQL é um Banco de Dados relacional (RDBMS – Relational Database Management Systems) com um modelo de cliente-servidor. RDBMS é um software de código aberto ou serviço usado na criação e gerenciamento de bancos de dados baseados no modelo relacional. [Entenda mais sobre o Gherkin aqui](https://blog.onedaytesting.com.br/bdd-introducao/). A escolha por esse banco foi feita pois o mesmo é gratuito, funciona muito bem com o Spring boot e por ser uma solução de banco relacional, que é a realidade da maioria das empresas hoje em dia. 
+
+
+## Equipe: 
+
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/matheusaugusto61"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/89614624?v=4" width="300px;" alt=""/><br /><sub><b>Matheus Augusto</b></sub></a><br />Backend Developer🚀<br /><a href="https://www.linkedin.com/in/matheus-augusto-2019/"><sub>Linkedin</sub></a></td>
+    <td align="center"><a href="https://github.com/israelgms"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/71859464?v=4" width="300px;" alt=""/><br /><sub><b>Israel Gomes</b></sub></a><br />Frontend Developer🚀<br /><a href="https://www.linkedin.com/in/israel-gomes-04407718b/"><sub>Linkedin</sub></a></td>
+  </tr>
+</table>
+
