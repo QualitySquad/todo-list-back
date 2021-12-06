@@ -41,7 +41,7 @@ Usaremos esse repositório para receber um repositório remoto existente.
 
   - Defina e relacione um repositório remoto, digitando o seguinte comando: 
 ```
-git remote add origin https://github.com/QualitySquad/quality
+git remote add origin https://github.com/QualitySquad/todo-list-back.git
 ```
 E para finalizar baixe o conteúdo disponível na url que você informou no passo anterior, com o comando:
 ```
