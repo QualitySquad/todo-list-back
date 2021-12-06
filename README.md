@@ -3,12 +3,51 @@
 Documentação do produto Task Remember desenvolvido para o trabalho da CI&T.
 
 ## Seções
-
-- [Endpoint API](#tarefas)
-- [Políticas de uso](#políticas-de-uso)
+  
+- [Objetivo](#objetivo)  
+- [Instalação e pré-requisito](#instalação-e-pré-requisitos)  
+- [Execução](#execução) 
+- [Endpoint API](#endpoint-de-tarefas)
 
 
 -----
+## **Objetivo**
+
+O projeto tem como objetivo montar um produto de Todo list e para isso dividimos o ambiente em dois repositórios, um para o back-end e outro para o front-end. A aplicação terá opções de criação, edição e exclusão de tarefas.
+
+## **Instalação e pré requisitos**
+
+💻 Requisitos:
+* IDE(Integrated Development Environment): [Spring Tools](https://spring.io/tools), ou [IntelliJ IDEA](https://www.jetbrains.com/pt-br/idea/download/);
+* Banco de Dados: [MySQL](https://dev.mysql.com/downloads/);
+* [JDK(Java Development Kit)](https://www.oracle.com/java/technologies/downloads/);   
+* [Git](https://git-scm.com/downloads).
+* Conta no [github](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
+
+Com todos os requisitos preenchidos, vamos para a criação do ambiente local, onde ficarão os arquivos do projeto.
+
+### Execução:
+
+1. Clique no botão **fork**, localizado no canto superior direito. Fork nada mais é do que uma cópia atual do repositório;
+2. Depois de realizar o fork, uma cópia do projeto ficará disponível em seus repositorios. Copie a URL do repositório e guarde-a pois precisaremos dela mais tarde;
+3. Inicie o terminal do gitbash ou um terminal de sua preferência;
+  - Navegue até a pasta que você deseja que os arquivos do projeto sejam armazenados.
+4. Comandos:
+ - Crie um novo repositório git, com o seguinte comando: 
+```
+git init
+```
+Usaremos esse repositório para receber um repositório remoto existente.
+
+  - Defina e relacione um repositório remoto, digitando o seguinte comando: 
+```
+git remote add origin https://github.com/QualitySquad/quality
+```
+E para finalizar baixe o conteúdo disponível na url que você informou no passo anterior, com o comando:
+```
+git pull origin master
+```
+Pronto! A partir deste momento todos os arquivos estarão na pasta que você definiu anteriormente.
 
 ## Endpoint de tarefas
 
